@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Favorite Mountains</title>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="heading">
+     <h1>Favorite Mountains</h1>
+      <div>
+      <button class="btn-color">Home</button>
+      <button class="btn-color">My Favorites</button>
+      <button class="btn-color">My Backlog</button>
+      <a href="#newMountains"><button class="btn-color">New Mountains</button>
+      </a>
+    </div>
+   </div>
+   <h2>Locations</h2>
+   <div id="article">
+     <h3>East vs West</h3>
+     <div class="locations">
+       <div>
+         <h4>East</h4>
+         <p class="textCenter">Smokey Mountains</p> <img src="/smokey.jpg" alt="Smokey Mountains">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deleniti numquam obcaecati id rerum harum, itaque aut quis cupiditate officia? Maiores quibusdam tempore optio quis voluptates? At sapiente dolor ipsam.</p>
+       </div>
+       <div>
+         <h4>West</h4>
+         <p class="textCenter">Mt Rainer</p>
+         <img src="/rainer.jpg" alt="Mountain Rainer">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis delectus facere ut adipisci incidunt quos, dolorem enim consequatur ipsum tempore provident nam fugit est, officiis, voluptates velit sunt fuga deleniti!</p>
+       </div>
+     </div>
+   </div>
+   <form id="newMountains">
+     <p class="textCenter">Add New Mountains</p>
+     <label>
+       Name:
+       <input type="text">
+     </label>
+     <label>
+       Rating:
+       <select>
+         <option>1 Star</option>
+         <option>2 Star</option>
+         <option>3 Star</option>
+         <option>4 Star</option>
+         <option>5 Star</option>
+       </select>
+     </label>
+     <label>
+       Image
+       <input type="text">
+     </label>
+     <label>
+       Synopsis:
+       <textarea cols="30" rows="10"></textarea>
+     </label>
+   </form>
+  </div>
+</body>
+</html>
